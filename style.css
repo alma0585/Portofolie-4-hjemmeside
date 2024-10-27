@@ -46,3 +46,13 @@ h2 {
     color: #6E5084;
 }
 
+
+.middlesection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+.endsection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
