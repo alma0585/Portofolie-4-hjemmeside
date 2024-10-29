@@ -5,6 +5,34 @@ header {
     color: #226663;
 }
 
+#first_img, #second_img, #third_img {
+    height: 55rem;
+    width: 40rem;
+    object-fit: cover;
+}
+
+.middle_container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 24rem;
+}
+
+.first_text, .second_text, .third_text {
+    position: relative;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+.middle_title {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -45,12 +73,6 @@ body {
 h2 {
     color: #6E5084;
 }
-
-
-.middlesection {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
 
 .endsection {
     display: grid;
