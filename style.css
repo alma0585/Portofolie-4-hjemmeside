@@ -3,34 +3,18 @@ header {
     justify-content: space-between;
     align-items: center;
     color: #226663;
+    max-width: 1200px;
+    margin: auto;
 }
 
-#first_img, #second_img, #third_img {
-    height: 55rem;
-    width: 40rem;
-    object-fit: cover;
+main {
+    max-width: 1200px;
+   margin: auto;
 }
 
-.middle_container {
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    margin-bottom: 24rem;
-}
-
-.first_text, .second_text, .third_text {
-    position: relative;
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
-  }
-
-.middle_title {
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    margin-bottom: 5rem;
-    margin-top: 3rem;
+footer {
+    max-width: 1200px;
+    margin: auto;
 }
 
 ul {
@@ -53,28 +37,86 @@ a {
 
 .herosection img {
     grid-column: 1 / 2;
-    grid-row: 1 / 2;
+    grid-row: 1 / 3;
+    height: 100%;
+    object-fit: cover
+;
 }
 
 .herosection h1 {
-    grid-column: 1 / 3;
+    grid-column: 2 / 3;
     grid-row: 1 / 2;
-    align-self: center;
+align-self: end;
     justify-self: end;
-    padding: 0 2rem 0 0;
+    padding: 2rem;
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
+
 }
 
 .herosection p {
+    max-width: 65ch;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    align-self: start;
+    padding: 2rem;
     color: white;
+
 }
+
+section {
+    margin-bottom: 5rem;
+}
+
+.infosection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px ;
+}
+
+.infosection article {
+    max-width: 65ch;
+}
+
+.infosection h2 {
+
+    margin-bottom: 20px;
+}
+
+.middlesection h2 {
+    margin-bottom: 2rem;
+}
+
+.threads {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.threads h3 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 2rem;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.links div {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 body {
     background-color: #F7F1FC;
 }
 
-h2 {
+
+h2, h3 {
     color: #6E5084;
 }
 
