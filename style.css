@@ -7,6 +7,13 @@ header {
     margin: auto;
 }
 
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #F7F1FC;
+    color: #333;
+    line-height: 1.6;
+}
+
 main {
     max-width: 1200px;
    margin: auto;
@@ -120,7 +127,8 @@ h2, h3 {
     color: #6E5084;
 }
 
-.endsection {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+    .endsection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    };
+
