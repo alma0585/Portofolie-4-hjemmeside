@@ -127,8 +127,14 @@ h2, h3 {
     color: #6E5084;
 }
 
-    .endsection {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    };
+.endsection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#img3 {
+    height: 4rem;
+    width: 27rem;
+}
+
 
